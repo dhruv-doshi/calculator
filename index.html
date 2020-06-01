@@ -4,8 +4,35 @@
         <title>
             Calculator
         </title>
+        <link rel="stylesheet"  type="text/css" href="main.css"></link>
     </head>
     <body>
-        
+        <div>
+            <button id = "no1" onClick="entered(1)">1</button>
+            <button id = "no2" onClick="entered(2)">2</button>
+            <button id = "no3" onClick="entered(3)">3</button>
+        </div>
+        <div>
+            <button id = "no4" onClick="entered(4)">4</button>
+            <button id = "no5" onClick="entered(5)">5</button>
+            <button id = "no6" onClick="entered(6)">6</button>
+        </div>
+        <div>
+            <button id = "no7" onClick="entered(7)">7</button>
+            <button id = "no8" onClick="entered(8)">8</button>
+            <button id = "no9" onClick="entered(9)">9</button>
+        </div>
+        <div>
+            <button id = "add" onClick="add()">+</button>
+            <button id = "sub" onClick="sub()">-</button>
+            <button id = "multiply" onClick="multiply()">*</button>
+        </div>
+        <div>
+            <button id = "divide" onClick="divide()">/</button>
+            <button id = "clear" onClick="clear()">C</button>
+            <button id = "printResult" onClick="printResult()">=</button>
+        </div>
+        <p id="result"></p>
+        <script src="main.js"></script>
     </body>
 </html>
